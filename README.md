@@ -1,7 +1,7 @@
 
 
 <div align="center">
-  <img src="blob:https://gemini.google.com/8ede31a3-fc90-4608-8506-f504acc11f60.JPG" width="200" alt="TOL LANGIT LOGO">
+  <img src=https://i.ibb.co/HfPPyvqt/tol-langit-logo.jpg" width="200" alt="TOL LANGIT LOGO">
   <h1>TOL LANGIT Neural Quant Advisor</h1>
   <p><b>Institutional Quantitative System | +1,352% Growth Since 2021</b></p>
 </div>
