@@ -1,5 +1,12 @@
 
-![Uploading quant.jpg…]()
+
+<div align="center">
+  <img src="blob:https://gemini.google.com/8ede31a3-fc90-4608-8506-f504acc11f60.png" width="200" alt="TOL LANGIT LOGO">
+  <h1>TOL LANGIT Neural Quant Advisor</h1>
+  <p><b>Institutional Quantitative System | +1,352% Growth Since 2021</b></p>
+</div>
+
+<hr />
 
 # TOL-LANGIT-Neural-Quant-Advisor
 Institutional MT5 Quantitative System for Gold and Forex
