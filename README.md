@@ -30,7 +30,7 @@ This is a sophisticated quantitative tool. Do NOT use this EA unless you possess
 
 ---
 
-## 📊 LIVE SIGNALS PERFORMANCE (AS OF JANUARY 2026)
+## 📊 LIVE SIGNALS PERFORMANCE (AS OF February 2026)
 | Account Name | Start Date | Total Growth | Link |
 | :--- | :--- | :--- | :--- |
 | **TOL LANGIT V10 (Core System)** | July 2021 | **+1,408%** | [View Signal](https://www.mql5.com/en/signals/1083101) |
