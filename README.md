@@ -69,7 +69,7 @@ Our most advanced deployment featuring an upgraded neural network architecture i
 ## 🛠 Technical Architecture
 * **Engine:** Neural Quant Advisor (NQA)
 * **Logic:** Deep Learning Pattern Recognition & Statistical Arbitrage
-* **Platform:** MetaTrader 4 / MetaTrader 5
+* **Platform:** MetaTrader 5
 * **Optimization:** Continuous Walk-Forward Analysis and OpenAI-enhanced dataset training.
 
 ---
