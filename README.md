@@ -33,9 +33,10 @@ This is a sophisticated quantitative tool. Do NOT use this EA unless you possess
 ## 📊 LIVE SIGNALS PERFORMANCE (AS OF JANUARY 2026)
 | Account Name | Start Date | Total Growth | Link |
 | :--- | :--- | :--- | :--- |
-| **TOL LANGIT V10 (Core System)** | July 2021 | **+1,352%** | [View Signal](https://www.mql5.com/en/signals/1083101) |
-| **TOL LANGIT V10 HIGH RISK** | March 2025 | **+778%** | [View Signal](https://www.mql5.com/en/signals/2296225) |
-| **TOL LANGIT ETF - MT5** | January 2026 | **+85%** | [View Signal](https://www.mql5.com/en/signals/2353105) |
+| **TOL LANGIT V10 (Core System)** | July 2021 | **+1,408%** | [View Signal](https://www.mql5.com/en/signals/1083101) |
+| **TOL LANGIT V10 HIGH RISK** | March 2025 | **+900%** | [View Signal](https://www.mql5.com/en/signals/2296225) |
+| **TOL LANGIT ETF - MT5** | January 2026 | **+143%** | [View Signal](https://www.mql5.com/en/signals/2353105) |
+| **TOL LANGIT ETF GOLD** | February 2026 | **+25%** | [View Signal](https://www.mql5.com/en/signals/2360336) |
 
 ---
 
