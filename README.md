@@ -75,19 +75,19 @@ Our most advanced deployment featuring an upgraded neural network architecture i
 ---
 *Disclaimer: Quantitative trading involves significant risk. Past performance is not indicative of future results.*
 
-## 🧠 STRATEGY LOGIC
-TOL LANGIT processes market data through a multi-layered quantitative process:
-
-1. **Trend Filter (EMA):** Uses a 200-period EMA for institutional noise reduction.
-2. **Regime Classification (ADX):** ADX(14) > 25 confirms trend strength. Uses DI+/- as mathematical "neurons" to identify trend probability, skipping choppy markets.
-3. **Volatility Confirmation (ATR):** Bands = Mid ± 3.5 × ATR. Signal triggers only on volatility-backed crosses in the direction of the macro trend.
+🧠 Core Strategy Logic
+The EA functions on a three-tier confirmation matrix:
+Trend Filter: Price must align with the 100-period EMA to ensure we are trading with the institutional flow.
+Volatility Filter: The ADX (Average Directional Index) must be above 20 to confirm the presence of a trending market.
+Statistical Entry: Entry is triggered when the Z-Score (calculated via Bollinger Band width) breaches the user-defined level (Default: 1.0). This signifies a move that is mathematically overextended and likely to continue.
 
 ---
 
-## 🛡️ RISK CONTROLS
-* **Precision Lot Sizing:** `Lot = (Equity × Risk%) / (SL_pts × TickValue)`
-* **Equity Guard:** 5% Total Equity Drawdown hard-stop.
-* **Daily Limits:** 1% Max Daily Loss & 5 trades per day cap.
+🛡️ Risk Management (Safety First)
+This system includes built-in capital protection features:
+Daily Profit Target: Automatically locks profits and stops trading once a daily % goal is reached.
+Daily Loss Limit: A hard circuit breaker to prevent "Black Swan" events from depleting the account.
+ATR-Based Stops: Stop losses are dynamic and adjust based on the current market volatility.
 
 ## 🚀 INSTALLATION
 1. Download `TOL_LANGIT_Neural_Quant_Advisor.mq5`.
