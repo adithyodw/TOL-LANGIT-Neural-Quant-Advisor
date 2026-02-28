@@ -18,7 +18,7 @@ input int InpStartHour = 0;       // Start Hour (0-23)
 input int InpEndHour = 23;        // End Hour (0-23)
 
 input string s1 = "======= QUANTITATIVE CORE =======";
-input int    InpEMA_Period    = 200;  // Macro Trend Filter (EMA)
+input int    InpEMA_Period    = 100;  // Macro Trend Filter (EMA)
 input int    InpADX_Period    = 14;   // Volatility Filter (ADX)
 input double InpADX_Min       = 20.0; // Minimum ADX to allow trading
 input int    InpBB_Period     = 20;   // Z-Score Basis (Bollinger)
@@ -26,13 +26,13 @@ input double InpZScore_Level  = 1.0;  // Stat-Sig Breakout Level (0.5 - 2.0)
 input int    InpRSI_Period    = 14;   // Momentum Filter (RSI)
 
 input string s2 = "======= RISK & EXECUTION =======";
-input double InpRiskPercent    = 1.0;  // Risk Per Trade (%)
-input double InpSL_ATR_Mult    = 2.0;  // Stop Loss (ATR Multiplier)
-input double InpTP_ATR_Mult    = 3.5;  // Take Profit (ATR Multiplier)
+input double InpRiskPercent    = 5.0;  // Risk Per Trade (%)
+input double InpSL_ATR_Mult    = 3.5;  // Stop Loss (ATR Multiplier)
+input double InpTP_ATR_Mult    = 10;  // Take Profit (ATR Multiplier)
 input double InpMaxSpreadPoints = 50.0; // Max Spread in Points (e.g. 50 = 5.0 pips)
-input double InpDailyTargetPct = 1.0;  // Daily Profit Target (%)
-input double InpDailyLossPct   = 1.0;  // Daily Loss Limit (%)
-input int    InpMaxTradesDay   = 5;    // Max Trades Per Session
+input double InpDailyTargetPct = 30;  // Daily Profit Target (%)
+input double InpDailyLossPct   = 20;  // Daily Loss Limit (%)
+input int    InpMaxTradesDay   = 4;    // Max Trades Per Session
 input long   InpMagic          = 888111;
 
 //--- GLOBAL VARIABLES
@@ -211,3 +211,4 @@ void CloseAllPositions() {
       }
    }
 }
+
