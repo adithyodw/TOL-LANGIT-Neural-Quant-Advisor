@@ -1,10 +1,10 @@
 //+------------------------------------------------------------------+
-//|                                           TOL LANGIT Quant Pro.mq5|
-//|        Institutional Multi-Factor System with Statistical Filters |
-//|                                   Copyright 2026, Quant Advisor  |
+//|                                     TOL LANGIT Neural Quant Pro  |
+//|        Institutional Multi-Factor Alpha-Seeking System (Ver 30.00)|
+//|                                    Copyright 2026, Quant Advisor |
 //+------------------------------------------------------------------+
 #property copyright "Copyright 2026, Quant Advisor"
-#property version   "3.00"
+#property version   "30.00"
 #property strict
 #property description "Quantitative Gold System: Z-Score Breakout & Daily PnL Lock"
 
@@ -211,4 +211,5 @@ void CloseAllPositions() {
       }
    }
 }
+
 
