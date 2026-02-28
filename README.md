@@ -1,21 +1,17 @@
-
-
 <div align="center">
-  <img src=https://i.ibb.co/HfPPyvqt/tol-langit-logo.jpg" width="200" alt="TOL LANGIT LOGO">
+  <img src="https://i.ibb.co/HfPPyvqt/tol-langit-logo.jpg" width="200" alt="TOL LANGIT LOGO">
   <h1>TOL LANGIT Neural Quant Advisor</h1>
   <p><b>Institutional Quantitative System | +1,352% Growth Since 2021</b></p>
 </div>
 
 <hr />
 
-# TOL-LANGIT-Neural-Quant-Advisor
-Institutional MT5 Quantitative System for Gold and Forex
-
 # TOL LANGIT Neural Quant Advisor (MT5)
 **Institutional Gold & Forex Quantitative System**
 
 ![License](https://img.shields.io/badge/License-Proprietary-blue.svg)
 ![Platform](https://img.shields.io/badge/Platform-MetaTrader%205-orange.svg)
+![Strategy](https://img.shields.io/badge/Strategy-Neural%20Quant-green.svg)
 
 ## ⚠️ ATTENTION: PROFESSIONAL USE ONLY
 **This EA is NOT designed for beginners or those seeking "magic" auto-profit buttons.**
@@ -25,8 +21,6 @@ This is a sophisticated quantitative tool. Do NOT use this EA unless you possess
 * **Position Sizing:** The math behind Risk-to-Reward ratios and margin requirements.
 * **Recovery Logic:** The mathematical risks and mechanics of Grid and Martingale systems.
 * **Market Dynamics:** Distance, slippage, and spread impact on execution.
-
-*If you are looking for a "get rich quick" scheme without learning the math, this tool is not for you.*
 
 ---
 
@@ -43,26 +37,42 @@ This is a sophisticated quantitative tool. Do NOT use this EA unless you possess
 ## 🏛️ Strategic Portfolio Tiers
 
 ### 1. TOL LANGIT V10 (Standard / Low Risk)
-The flagship conservative model focused on long-term capital preservation and steady compounding. This version utilizes optimized neural weightings to minimize drawdown while capturing high-probability market inefficiencies.
-
-* **MQL5 Signal:** [View Performance](https://www.mql5.com/en/signals/1083101)
+The flagship conservative model focused on long-term capital preservation. Utilizing optimized neural weightings to minimize drawdown while capturing high-probability market inefficiencies.
 * **Myfxbook Verified:** [Audit Link](https://www.myfxbook.com/members/adithyodw/tol-langit-v10/8671765)
 * **SignalStart:** [Analytics Portfolio](https://www.signalstart.com/analysis/tol-langit-v10/232541)
-* **ZuluTrade:** [Analytics Portfolio](https://www.zulutrade.com/trader/417743/trading?t=10000&m=1)
 
 ### 2. TOL LANGIT High Risk (Aggressive Alpha)
-An alpha-seeking variant designed for high-velocity growth. This model employs a more aggressive exposure parameter, optimized for traders seeking to capitalize on market volatility with higher risk tolerance.
-
+An alpha-seeking variant designed for high-velocity growth. Optimized for traders with high risk tolerance seeking to capitalize on volatility.
 * **MQL5 Signal:** [View Performance](https://www.mql5.com/en/signals/2296225)
-* **Myfxbook Verified:** [Audit Link](https://www.myfxbook.com/members/adithyodw/tol-langit-v10-high-risk/11424740)
-* **SignalStart:** [Analytics Portfolio](https://www.signalstart.com/analysis/tol-langit-high-risk/278500)
 
 ### 3. TOL LANGIT ETF MT5 (Next-Gen AI)
-Our most advanced deployment featuring an upgraded neural network architecture integrated with OpenAI-driven insights. This MT5 version focuses on ETF-style diversification and enhanced pattern recognition for superior execution in modern market conditions.
-
-* **MQL5 Signal:** [View Performance](https://www.mql5.com/en/signals/2353105)
+Upgraded neural architecture integrated with OpenAI-driven insights for enhanced pattern recognition and ETF-style diversification.
 * **Myfxbook Verified:** [Audit Link](https://www.myfxbook.com/members/adithyodw/tol-langit-etf/11891377)
-* **SignalStart:** [Analytics Portfolio](https://www.signalstart.com/analysis/tol-langit-etf/285680)
+
+---
+
+## 🧠 Core Strategy Logic
+The EA functions on a sophisticated three-tier confirmation matrix:
+
+### 1. Trend Filter (The Macro Direction)
+To ensure the EA is never "fighting the tape," price action must align with a **100-period Exponential Moving Average (EMA)**.
+* **Longs:** Only allowed if the current price is above the EMA.
+* **Shorts:** Only allowed if the current price is below the EMA.
+
+### 2. Volatility Filter (The Momentum Check)
+The **ADX (Average Directional Index)** acts as the EA's "engine" check. The system requires an ADX value above **20.0** to initialize a trade, preventing entries in sideways, low-liquidity "chop."
+
+### 3. Statistical Entry (The Z-Score Trigger)
+Utilizes a **Z-Score calculation** based on Bollinger Band variance. By measuring how many Standard Deviations price is away from the mean, the EA identifies mathematically significant breakout points.
+
+---
+
+## 🛡️ Risk Management (Safety First)
+Three layers of capital protection to ensure longevity:
+
+* **🚀 Daily Profit Target:** Real-time equity tracking. Once the target % (e.g., 30%) is reached, all positions close and the system locks for the day.
+* **📉 Daily Loss Limit:** A hard circuit breaker. If equity drops by the specified % (e.g., 20%), the EA kills all trades immediately.
+* **📏 ATR-Based Stops:** Dynamic stops that widen during high volatility (to avoid "wick outs") and tighten during quiet sessions.
 
 ---
 
@@ -73,25 +83,14 @@ Our most advanced deployment featuring an upgraded neural network architecture i
 * **Optimization:** Continuous Walk-Forward Analysis and OpenAI-enhanced dataset training.
 
 ---
-*Disclaimer: Quantitative trading involves significant risk. Past performance is not indicative of future results.*
-
-🧠 Core Strategy Logic
-The EA functions on a three-tier confirmation matrix:
-Trend Filter: Price must align with the 100-period EMA to ensure we are trading with the institutional flow.
-Volatility Filter: The ADX (Average Directional Index) must be above 20 to confirm the presence of a trending market.
-Statistical Entry: Entry is triggered when the Z-Score (calculated via Bollinger Band width) breaches the user-defined level (Default: 1.0). This signifies a move that is mathematically overextended and likely to continue.
-
----
-
-🛡️ Risk Management (Safety First)
-This system includes built-in capital protection features:
-Daily Profit Target: Automatically locks profits and stops trading once a daily % goal is reached.
-Daily Loss Limit: A hard circuit breaker to prevent "Black Swan" events from depleting the account.
-ATR-Based Stops: Stop losses are dynamic and adjust based on the current market volatility.
 
 ## 🚀 INSTALLATION
 1. Download `TOL_LANGIT_Neural_Quant_Advisor.mq5`.
 2. Open MetaTrader 5.
 3. Go to `File > Open Data Folder`.
 4. Navigate to `MQL5 > Experts` and paste the file.
-5. Restart MT5 or refresh the Navigator, then drag the EA onto a Gold (XAUUSD) or EURUSD chart.
+5. Restart MT5 or refresh the Navigator.
+6. Drag the EA onto an **XAUUSD H1** or **EURUSD H1** chart.
+
+---
+*Disclaimer: Quantitative trading involves significant risk. Past performance is not indicative of future results.*
